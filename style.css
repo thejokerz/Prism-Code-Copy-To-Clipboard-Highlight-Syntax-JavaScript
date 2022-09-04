@@ -1,7 +1,10 @@
 /* PrismJS 1.29.0
+
 https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+apacheconf+aspnet+bash+bbcode+c+csharp+cpp+coffeescript+css-extras+dart+django+git+go+go-module+graphql+http+ini+java+javadoclike+jsdoc+js-extras+json+json5+jsonp+jsstacktrace+js-templates+markdown+markup-templating+mongodb+objectivec+perl+php+phpdoc+php-extras+plsql+powershell+pug+python+jsx+tsx+regex+ruby+rust+sass+scss+scala+scheme+smarty+sql+iecst+stylus+swift+typescript+typoscript+wiki&plugins=previewers+command-line+unescaped-markup+normalize-whitespace+toolbar+copy-to-clipboard */
-code[class*=language-],
-pre[class*=language-] {
+
+
+
+code[class*=language-] , pre[class*=language-] {
     color: #f8f8f2;
     background: 0 0;
     text-shadow: 0 1px rgba(0, 0, 0, .3);
@@ -38,8 +41,7 @@ pre[class*=language-] {
     border-radius: .3em
 }
 
-:not(pre)>code[class*=language-],
-pre[class*=language-] {
+:not(pre)>code[class*=language-] , pre[class*=language-] {
     background: #272822
 }
 
@@ -62,47 +64,56 @@ pre:before {
   border-radius: 0;
   right: auto;
 }
+
 pre.language-javascript:before {
   background-color: #f8c555;
   content: "Javascript";
   color: #000;
 }
+
 pre.language-html:before {
   background-color: #16a085;
   content: "HTML";
   color: #fff;
 }
+
 pre.language-css:before {
   background-color: #00bcd4;
   content: "CSS";
   color: #fff;
 }
+
 pre.language-sass:before {
   background-color: #ce679a;
   content: "SASS";
   color: #fff;
 }
+
 pre.language-php:before {
   background-color: #4f5b93;
   content: "PHP";
   color: #fff;
 }
+
 pre.language-python:before {
   background-color: #4584b6;
   content: "Python";
   color: #fff;
 }
+
 pre.language-sql:before {
   background-color: #f29111;
   content: "SQL";
   color: #fff;
 }
+
 pre.language-git:before {
   background-color: #bd2c00;
   content: "Git";
   color: #fff;
   text-transform: uppercase;
 }
+
 pre.language-typescript:before {
   background-color: #2a76cb;
   color: #fff;
@@ -146,19 +157,11 @@ pre.language-typescript:before {
     color: #a6e22e
 }
 
-.language-css .token.string,
-.style .token.string,
-.token.entity,
-.token.operator,
-.token.url,
-.token.variable {
+.language-css .token.string , .style .token.string , .token.entity , .token.operator , .token.url , .token.variable {
     color: #f8f8f2
 }
 
-.token.atrule,
-.token.attr-value,
-.token.class-name,
-.token.function {
+.token.atrule , .token.attr-value , .token.class-name , .token.function {
     color: #e6db74
 }
 
@@ -171,8 +174,7 @@ pre.language-typescript:before {
     color: #fd971f
 }
 
-.token.bold,
-.token.important {
+.token.bold , .token.important {
     font-weight: 700
 }
 
@@ -184,15 +186,12 @@ pre.language-typescript:before {
     cursor: help
 }
 
-.prism-previewer,
-.prism-previewer:after,
-.prism-previewer:before {
+.prism-previewer , .prism-previewer:after , .prism-previewer:before {
     position: absolute;
     pointer-events: none
 }
 
-.prism-previewer,
-.prism-previewer:after {
+.prism-previewer , .prism-previewer:after {
     left: 50%
 }
 
@@ -213,8 +212,7 @@ pre.language-typescript:before {
     margin-bottom: -48px
 }
 
-.prism-previewer:after,
-.prism-previewer:before {
+.prism-previewer:after , .prism-previewer:before {
     content: '';
     position: absolute;
     pointer-events: none
@@ -499,17 +497,12 @@ pre.language-typescript:before {
     opacity: .7
 }
 
-[class*=lang-] script[type='text/plain'],
-[class*=language-] script[type='text/plain'],
-script[type='text/plain'][class*=lang-],
-script[type='text/plain'][class*=language-] {
+[class*=lang-] script[type='text/plain'] , [class*=language-] script[type='text/plain'] , script[type='text/plain'][class*=lang-] , script[type='text/plain'][class*=language-] {
     display: block;
     font: 100% Consolas, Monaco, monospace;
     white-space: pre;
     overflow: auto
 }
-
-
 
 div.code-toolbar {
     position: relative
@@ -562,9 +555,7 @@ div.code-toolbar > .toolbar > .toolbar-item > button.copy-to-clipboard-button {
     cursor: pointer;
 }
 
-div.code-toolbar>.toolbar>.toolbar-item>a,
-div.code-toolbar>.toolbar>.toolbar-item>button,
-div.code-toolbar>.toolbar>.toolbar-item>span {
+div.code-toolbar>.toolbar>.toolbar-item>a , div.code-toolbar>.toolbar>.toolbar-item>button , div.code-toolbar>.toolbar>.toolbar-item>span {
     color: #ffffff;
     font-size: .8em;
     padding: 0 .5em;
@@ -574,12 +565,7 @@ div.code-toolbar>.toolbar>.toolbar-item>span {
     border-radius: .5em
 }
 
-div.code-toolbar>.toolbar>.toolbar-item>a:focus,
-div.code-toolbar>.toolbar>.toolbar-item>a:hover,
-div.code-toolbar>.toolbar>.toolbar-item>button:focus,
-div.code-toolbar>.toolbar>.toolbar-item>button:hover,
-div.code-toolbar>.toolbar>.toolbar-item>span:focus,
-div.code-toolbar>.toolbar>.toolbar-item>span:hover {
+div.code-toolbar>.toolbar>.toolbar-item>a:focus , div.code-toolbar>.toolbar>.toolbar-item>a:hover , div.code-toolbar>.toolbar>.toolbar-item>button:focus , div.code-toolbar>.toolbar>.toolbar-item>button:hover , div.code-toolbar>.toolbar>.toolbar-item>span:focus , div.code-toolbar>.toolbar>.toolbar-item>span:hover {
     color: #ffffff;
     text-decoration: none
 }
