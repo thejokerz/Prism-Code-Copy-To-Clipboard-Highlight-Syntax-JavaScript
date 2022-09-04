@@ -40,6 +40,66 @@ pre[class*=language-] {
     white-space: normal
 }
 
+pre:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 10px;
+  font-weight: bold;
+  text-shadow: none;
+  font-size: 13px;
+  padding: 1px 10px;
+  /* Will Remove Later */
+  border-radius: 0;
+  right: auto;
+}
+pre.language-javascript:before {
+  background-color: #f8c555;
+  content: "Javascript";
+  color: #000;
+}
+pre.language-html:before {
+  background-color: #16a085;
+  content: "HTML";
+  color: #fff;
+}
+pre.language-css:before {
+  background-color: #00bcd4;
+  content: "CSS";
+  color: #fff;
+}
+pre.language-sass:before {
+  background-color: #ce679a;
+  content: "SASS";
+  color: #fff;
+}
+pre.language-php:before {
+  background-color: #4f5b93;
+  content: "PHP";
+  color: #fff;
+}
+pre.language-python:before {
+  background-color: #4584b6;
+  content: "Python";
+  color: #fff;
+}
+pre.language-sql:before {
+  background-color: #f29111;
+  content: "SQL";
+  color: #fff;
+}
+pre.language-git:before {
+  background-color: #bd2c00;
+  content: "Git";
+  color: #fff;
+  text-transform: uppercase;
+}
+pre.language-typescript:before {
+  background-color: #2a76cb;
+  color: #fff;
+  content: "Typescript";
+}
+
 .token.cdata,
 .token.comment,
 .token.doctype,
@@ -440,11 +500,15 @@ script[type='text/plain'][class*=language-] {
     overflow: auto
 }
 
+
+
 div.code-toolbar {
     position: relative
 }
 
-div.code-toolbar>.toolbar {
+div.code-toolbar > .toolbar
+
+div.code-toolbar > .toolbar {
     position: absolute;
     z-index: 10;
     top: .3em;
@@ -508,6 +572,5 @@ div.code-toolbar>.toolbar>.toolbar-item>button:focus,
 div.code-toolbar>.toolbar>.toolbar-item>button:hover,
 div.code-toolbar>.toolbar>.toolbar-item>span:focus,
 div.code-toolbar>.toolbar>.toolbar-item>span:hover {
-    color: inherit;
     text-decoration: none
 }
