@@ -22,6 +22,15 @@ pre[class*=language-] {
     hyphens: none
 }
 
+pre {
+    position: relative;
+    padding: 40px 20px 25px 20px;
+    margin: 15px 0;
+    direction: ltr;
+    border-radius: 0;
+    border: none;
+}
+
 pre[class*=language-] {
     padding: 1em;
     margin: .5em 0;
