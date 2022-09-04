@@ -482,6 +482,14 @@ div.code-toolbar>.toolbar>.toolbar-item>button {
     -ms-user-select: none
 }
 
+div.code-toolbar > .toolbar > .toolbar-item > button.copy-to-clipboard-button {
+    background-color: #0075ff;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    right: 5px;
+}
+
 div.code-toolbar>.toolbar>.toolbar-item>a,
 div.code-toolbar>.toolbar>.toolbar-item>button,
 div.code-toolbar>.toolbar>.toolbar-item>span {
