@@ -506,8 +506,6 @@ div.code-toolbar {
     position: relative
 }
 
-div.code-toolbar > .toolbar
-
 div.code-toolbar > .toolbar {
     position: absolute;
     z-index: 10;
@@ -552,6 +550,7 @@ div.code-toolbar > .toolbar > .toolbar-item > button.copy-to-clipboard-button {
     font-weight: bold;
     position: relative;
     right: 5px;
+    cursor: pointer;
 }
 
 div.code-toolbar>.toolbar>.toolbar-item>a,
@@ -572,5 +571,6 @@ div.code-toolbar>.toolbar>.toolbar-item>button:focus,
 div.code-toolbar>.toolbar>.toolbar-item>button:hover,
 div.code-toolbar>.toolbar>.toolbar-item>span:focus,
 div.code-toolbar>.toolbar>.toolbar-item>span:hover {
+    color: inherit;
     text-decoration: none
 }
