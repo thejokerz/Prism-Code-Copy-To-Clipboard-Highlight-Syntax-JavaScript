@@ -35,10 +35,10 @@ pre {
 }
 
 pre[class*=language-] {
-    padding: 1em;
-    margin: .5em 0;
+    padding: 2em;
+    margin: 0.5em 0;
     overflow: auto;
-    border-radius: .3em
+    border-radius: 0em;
 }
 
 :not(pre)>code[class*=language-] , pre[class*=language-] {
