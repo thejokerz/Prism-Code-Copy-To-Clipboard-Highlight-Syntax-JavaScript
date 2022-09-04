@@ -543,13 +543,13 @@ div.code-toolbar>.toolbar>.toolbar-item>button {
 div.code-toolbar > .toolbar > .toolbar-item > button.copy-to-clipboard-button {
     background-color: #0075ff;
     color: #ffffff;
-    font-weight: bold;
     position: relative;
-    top: 4px;
-    right: 6px;
+    top: 3px;
+    right: 5px;
     cursor: pointer;
     font-size: 15px;
-    padding: 3px 6px 6px 6px;
+    font-weight: bold;
+    padding: 1px 9px 5px 7px;
 }
 
 div.code-toolbar>.toolbar>.toolbar-item>a , div.code-toolbar>.toolbar>.toolbar-item>button , div.code-toolbar>.toolbar>.toolbar-item>span {
