@@ -546,7 +546,7 @@ div.code-toolbar>.toolbar>.toolbar-item>button {
 
 div.code-toolbar > .toolbar > .toolbar-item > button.copy-to-clipboard-button {
     background-color: #0075ff;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     position: relative;
     right: 5px;
@@ -556,7 +556,7 @@ div.code-toolbar > .toolbar > .toolbar-item > button.copy-to-clipboard-button {
 div.code-toolbar>.toolbar>.toolbar-item>a,
 div.code-toolbar>.toolbar>.toolbar-item>button,
 div.code-toolbar>.toolbar>.toolbar-item>span {
-    color: #bbb;
+    color: #ffffff;
     font-size: .8em;
     padding: 0 .5em;
     background: #f5f2f0;
